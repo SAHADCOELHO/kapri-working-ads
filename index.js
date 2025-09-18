@@ -1,6 +1,6 @@
 
-import express from 'express';
-import cors from 'cors';
+const express = require ('express');
+const cors = require ('cors');
 import path from 'path';
 import 'dotenv/config';
 import { fileURLToPath } from 'url';
