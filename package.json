@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -15,5 +13,8 @@
   "type": "commonjs",
   "engines": {
     "node": ">=18 <23"
-  }
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
 }
